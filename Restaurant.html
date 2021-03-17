@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Forms</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    
+    <style>
+        .scroll-spy-ex {
+            position: relative;
+            height: 200px;
+            margin-top: .5rem;
+            overflow: auto;
+        }
+        strong:hover {
+  background-color: red;
+}
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+            <img src="image1.jpg" alt="Home" width="70px" height="60px">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Restaurant.html" target="self"><Strong >Home</Strong></a>
+          </li>
+          &nbsp;&nbsp;&nbsp;
+          <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Restaurant.html"><Strong >BestSeller</Strong></a>
+          </li>
+          &nbsp;&nbsp;&nbsp;
+          <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Contactus.html"><Strong >Contact</Strong></a>
+              </li>
+          &nbsp;&nbsp;&nbsp;
+          <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Smile.html"><Strong >Smiles</Strong></a>
+          </li>
+          
+        </ul>
+        &nbsp;&nbsp;&nbsp;
+        <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  Delivary/Takeaway
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
+        
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+        
+        </div>
+    </div>
+  </nav>
+  <div class="card" style="width: 26rem; padding:15px; float: left;">
+        <img src="image2.jpg" class="card-img-top" alt="..." width="500px" height="213px">
+        <div class="card-body">
+                <h5 class="card-title" style="color:violet;">Prawn Pulao</h5>
+                <p class="card-text" style="color:royalblue;">This gentle prawn curry with soothing flavours of coconut milk, cinnamon, fresh ginger senses.</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item" style="color:red;"><strong>Cost: 330/-</strong></li>
+              </ul>
+              <button type="button" class="btn btn-outline-success" >Add To Cart</button>
+            </div>
+      <div class="card" style="width: 26rem; padding:15px; float: left;">
+            <img src="image3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                    <h5 class="card-title" style="color:violet;">Kadai Panner</h5>
+                    <p class="card-text" style="color:royalblue;">Kadai Paneer is a vibrant, tangy, spiced paneer dish that can brighten up your day any time.</p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item" style="color:red;"><strong>Cost: 290/-</strong></li>
+                  </ul>
+                  <button type="button" class="btn btn-outline-success" >Add To Cart</button>
+                </div>
+          <div class="card" style="width: 26rem; padding:15px; " >
+                <img src="image4.jpg" class="card-img-top" alt="..." height="213px">
+                <div class="card-body">
+                  <h5 class="card-title" style="color:violet;">Garlic Parmesan</h5>
+                  <p class="card-text" style="color:royalblue;">A hard, sharp, dry Italian cheese made from skim milk and usually served grated as a garnish.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item" style="color:red;"><strong>Cost: 350/-</strong></li>
+                </ul>
+                <button type="button" class="btn btn-outline-success" >Add To Cart</button>
+              </div>
+              <div>
+                    <div class="card-header">
+                    <strong>References</strong>
+                    </div>
+                    <div class="card-body" style="background-color:black;">
+                      <h5 class="card-title" style="color:white;">Location:</h5>
+                      <p class="card-text" style="color:white;">4th floor, No. 8/14, STV Nagar, AIR Bypass Rd, Urban Mandal, Tirupati, Andhra Pradesh 517501.</p>
+                      <a href="#" class="btn btn-primary" style="color:white;">Show In Maps</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                      2 days ago
+                    </div>
+                    </div>
+  
+  
+</body>
+
+</html>
